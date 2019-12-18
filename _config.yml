@@ -1,11 +1,11 @@
 # Site settings
 author: Gerald Tee
-title: 
+title: G's Blog
 header-img: img/home-bg.png
 email: 93geraldtee@gmail.com
 copyright_name: Gerald Tee
 description: > # this means to ignore newlines until "baseurl:"
-  
+  My first blog at Flatiron School
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  93geraldtee
