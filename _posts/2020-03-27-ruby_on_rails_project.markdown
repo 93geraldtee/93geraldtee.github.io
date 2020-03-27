@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Ruby on Rails Project"
-date:       2020-03-27 17:42:25 +0000
+date:       2020-03-27 13:42:26 -0400
 permalink:  ruby_on_rails_project
 ---
 
@@ -41,6 +41,6 @@ Returned the first Gratitude's User (Gratitude belongs_to User).
 
 `u.comments => #<ActiveRecord::Associations::CollectionProxy [#<Comment id: 1, content: "That's really great man!", user_id: 1, gratitude_id: 1, created_at: "2020-03-26 14:34:17", updated_at: "2020-03-26 14:34:17">, #<Comment id: 2, content: "This is a test!", user_id: 1, gratitude_id: 1, created_at: "2020-03-26 17:29:58", updated_at: "2020-03-26 17:29:58"> ...`
 
-This returned all the first User's comments that he posted, which indicates the join table and has_many through association. A User has many comments, through a post. Here you can see the comment has the foreign key of both the User and Gratitude models.
+This returned all the first User's comments that he posted, which indicates the join table and has_many through association. A User has many comments, through a post. Here you can see that the comment holds the foreign key of both the User and Gratitude models.
 
-There was a few more concepts I had to grasp such as nested routes and scope methods, but overall, the join table and associations seemed to be the most important in understanding. Although it took a lot of debugging, practice and research to solidify the concepts, it was pretty eye-opening to see how complex conepts can get even when the idea of it seems straightforward.
+There was a few more concepts I had to grasp such as nested routes and scope methods, but overall, the join table and associations seemed to be the most important in understanding. Although it took a lot of debugging, practice and research to solidify the concepts, it was pretty eye-opening to research how complex concepts can get even when the idea of it seems straightforward.
