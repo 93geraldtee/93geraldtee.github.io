@@ -31,15 +31,21 @@ I assigned these variables to the first instantiated objects of each models:
 
 Then, I checked my associations by calling:
 
-`c.user => #<User id: 1, email: "93geraldtee@gmail.com", created_at: "2020-03-25 01:59:13", updated_at: "2020-03-25 01:59:13"> `
+```
+c.user => #<User id: 1, email: "93geraldtee@gmail.com", created_at: "2020-03-25 01:59:13", updated_at: "2020-03-25 01:59:13"> 
+```
 
 This returned the first comment's User (Comment belongs_to User).
 
-`g.user => #<User id: 1, email: "93geraldtee@gmail.com", created_at: "2020-03-25 01:59:13", updated_at: "2020-03-25 01:59:13">`
+```
+g.user => #<User id: 1, email: "93geraldtee@gmail.com", created_at: "2020-03-25 01:59:13", updated_at: "2020-03-25 01:59:13">
+```
 
 Returned the first Gratitude's User (Gratitude belongs_to User).
 
-`u.comments => #<ActiveRecord::Associations::CollectionProxy [#<Comment id: 1, content: "That's really great man!", user_id: 1, gratitude_id: 1, created_at: "2020-03-26 14:34:17", updated_at: "2020-03-26 14:34:17">, #<Comment id: 2, content: "This is a test!", user_id: 1, gratitude_id: 1, created_at: "2020-03-26 17:29:58", updated_at: "2020-03-26 17:29:58"> ...`
+```
+u.comments => #<ActiveRecord::Associations::CollectionProxy [#<Comment id: 1, content: "That's really great man!", user_id: 1, gratitude_id: 1, created_at: "2020-03-26 14:34:17", updated_at: "2020-03-26 14:34:17">, #<Comment id: 2, content: "This is a test!", user_id: 1, gratitude_id: 1, created_at: "2020-03-26 17:29:58", updated_at: "2020-03-26 17:29:58"> ...
+```
 
 This returned all the first User's comments that he posted, which indicates the join table and has_many through association. A User has many comments, through a post. Here you can see that the comment holds the foreign key of both the User and Gratitude models.
 
