@@ -5,7 +5,7 @@ date:       2019-12-22 16:07:59 -0500
 permalink:  why_software_engineering
 ---
 
-For a while I’ve struggled with direction and have many interests. I’ve had jobs working in kitchens, doing photoshoots, taught guitar… but couldn't picture myself making a lucrative career. I was convinced by my family to go into healthcare, so I reluctantly decided to pursue that field because there’s good jobs and I didn’t know what else to do. Studying in the technology fields was always an option, but I thought that it was out of my reach to learn and went with what others told me.
+For a while I’ve struggled with direction and have many interests. I’ve had jobs working in kitchens, doing photoshoots, taught guitar… but couldn't picture myself making a career out of my hobbies. I was convinced by my family to go into healthcare, so I reluctantly decided to pursue that field because there’s good jobs and I didn’t know what else to do. Studying in the technology fields was always an option, but I thought that it was out of my reach to learn and went with what others told me.
 
 Fast forward to college in 2011, I went in as a Biology major. I switched majors arounds and in 2017, graduated with high honors in Exercise Science and went straight to an Accelerated Nursing Program in California. I felt proud of myself for achieving honors and learned I could achieve my goal if I worked for it, yet, I constantly had a gut feeling that this wasn’t right and I was incredibly unhappy with that path. After a few months, I withdrew from nursing school and went back to NJ a couple months ago, feeling like I've failed. So much has happened this year, but I guess that's how life works!
 
