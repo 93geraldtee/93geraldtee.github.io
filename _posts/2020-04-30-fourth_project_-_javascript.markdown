@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Fourth Project - Javascript"
-date:       2020-05-01 02:14:25 +0000
+date:       2020-04-30 22:14:26 -0400
 permalink:  fourth_project_-_javascript
 ---
 
@@ -16,7 +16,7 @@ From what I learned, when we call the `fetch(theUrl, data)` method the browser s
 
 This process is done asynchronously, which allows us to create a single page application and perform actions without a manual refresh of the page. When fetch is called it returns a promise, sends a request to the API, and if the browser successfully receives the response from the URL, the promise gets resolved and goes through callback methods (`.then`). Otherwise, the promise will be rejected and an error will be returned.
 
-If the promise is successfully resolved, the `.then` "success" callbacks will then run with the data from the response passed in as the params. Otherwise there will be an error, and this is where the `.catch` failure callbacks run and are important to show in the browser.
+If the promise is successfully resolved, the `.then` "success" callbacks will then run with the data from the response passed in as the params. The `.then` will return another promise that then gets resolved as well, until specifided. Otherwise there will be an error, and this is where the `.catch` failure callbacks run and are important to show in the browser.
 
 ```
 fetch("http://localhost:3000/api/v1/roasters")
