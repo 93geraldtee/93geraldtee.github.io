@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "State vs Props in React"
-date:       2020-07-29 14:27:25 +0000
+date:       2020-07-29 10:27:26 -0400
 permalink:  state_vs_props_in_react
 ---
 
@@ -59,7 +59,7 @@ This chart shows the difference in how props and state are changed in a componen
 
 ### When to Use
 
-One thing to note is deciding when to use either state or props in components, and this goes into when to make your component a Stateless or State Component. Stateless components only receive props, have no state and are usually only responsible for one thing such as displaying props. A stateful component can be passed props and can manage state. This handles the interactivity between the user or client side and the server side, changing or handling the data and responses from cl The more state is used, the more complex an app becomes and so stateless components should be used more often while the logic stays in the State Components. 
+One thing to note is deciding when to use either state or props in components, and this goes into when to make your component a Stateless or State Component. Stateless components only receive props, have no state and are usually only responsible for one thing such as displaying props. A stateful component can be passed props and can manage state, keeping track of the info itself. This handles the interactivity between the user or client side and the server side, changing or handling the data and responses from the client side. The more state components are used, the more complex an app becomes and so stateless components should be used more often while the logic stays in the State Components. 
 
 Sources:
 
